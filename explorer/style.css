@@ -1,0 +1,131 @@
+
+body{
+    background-color:  #f1f1f1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+.container{
+    background-color: antiquewhite;
+    margin-top: 20;
+    margin-bottom: 30;
+    width: 50%;
+    padding: 30;
+    
+}
+
+.container p{
+    color: red;
+} */
+
+/* Estilo básico da navbar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkcyan; /* Cor de fundo da navbar */
+    display: flex; /* Usa flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    box-shadow: 1px 1px 3px rgb(1, 19, 19);
+  }
+  
+  /* Itens da navbar */
+  .navbar li {
+    float: left;
+  }
+  
+  /* Links dos itens */
+  .navbar li a {
+    display: block;
+    color: white; /* Cor do texto */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 14px 16px; /* Espaçamento interno */
+    text-decoration: none; /* Remove sublinhado dos links */
+  }
+  
+  /* Mudança de cor ao passar o mouse */
+  .navbar li a:hover {
+    background-color: rgb(3, 102, 102);
+    transition: .4s; /* Cor de fundo ao passar o mouse */
+  }
+  
+  /* Clear floats após os itens da lista */
+  .navbar::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+img{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
+#hero h1, p{
+    text-align: center;
+    line-height: 20px;
+}
+#hero {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#unico{
+    color: rgb(245, 107, 8);
+}
+h1{
+    color: darkcyan;
+    font-size: 50px;
+}
+
+p{
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    
+}
+
+.footer{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-bottom: 60px;
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.footer .button {
+    background-color: cadetblue;
+    padding: 12px;
+    border-radius: 10px;
+    /* margin-left: auto;
+    margin-left: auto; */
+   
+}
+
+.button:hover{
+    background-color: rgb(54, 99, 100);
+    transition: .4s;
+    
+
+}
+
