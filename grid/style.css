@@ -1,0 +1,150 @@
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#app {
+  display: grid;
+ grid-template-areas:
+ "header header header "
+ "main main aside "
+ "footer footer footer"
+ ;
+  height: 100vh;
+  border: 3px solid green;
+  column-gap: 24px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+#app > div {
+  border: 1px solid red;
+}
+
+
+
+span {
+  border: 1px solid blue;
+}
+#app > *{
+    border: 1px solid red;
+}
+
+#app header{
+    grid-area: header;
+}
+
+#app main{
+   grid-area: main;
+}
+#app footer{
+    grid-area:footer ;
+}
+ */
+/* 
+* {
+  margin: 0; */
+  /* padding: 0; */
+  /* box-sizing: border-box;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 20px; */
+  /* align-items: center; */
+  /* justify-items: space-around;
+  place-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+
+}
+
+.grid > div {
+  background-color: cornflowerblue;
+}
+
+.grid div:nth-child(2){
+    place-self: center;
+} */
+/* 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    display: grid;
+    list-style: none;
+    grid-auto-flow: column;
+    grid-auto-columns:  1fr;
+    background-color: burlywood;
+    padding: 2.3rem;
+    justify-content: center;
+    align-items: center;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    justify-content: center;
+    background-color: #121214;
+    padding: 72px 104px;
+    place-content: center;
+
+}
+header h1{
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 72px;
+    color: #02799d;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+header p{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #c2e0e9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    margin-top: 62px;
+    display: grid;
+    grid-template-columns: repeat(3, 366px);
+    row-gap: 48px;
+    column-gap: 60px;
+}
+
+.card{
+    padding: 0 32px 32px;
+    background-color: #202024;
+    margin: 8px;
+    border-radius: 8px;
+    border:2px solid #323238;
+}
+.card p {
+    color: #c4c4cc;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 24px 32px 32px;
+}
+
+.card h2{
+   color: #e1e1e6;
+   font-weight: 700;
+   font-size: 36px;
+   padding: 24px 32px 0;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 20px #949496;
+    transition: .4s;
+}
